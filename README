@@ -1,0 +1,31 @@
+#  Mango Disease Classification Using CNN
+
+This project uses a Convolutional Neural Network to classify mango leaf diseases into seven distinct categories. It's part of an effort to leverage deep learning in precision agriculture for early disease detection and crop health improvement.
+
+##  Model Architecture
+- Input shape: (224, 224, 3)
+- Layers: Conv2D → MaxPooling → BatchNorm → Dropout → Fully Connected
+- Optimizer: Adam
+- Loss: Categorical Crossentropy
+
+##  Dataset
+Contains images of mango leaves across seven disease categories. Preprocessing includes resizing, normalization, and augmentation.
+
+##  Metrics
+Model accuracy and loss tracked across epochs with visualization. Confusion matrix and classification report included.
+
+##  How to Run
+1. Clone the repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Run the notebook: `Project CNN Plant Disease Detection.ipynb`
+
+##  Future Scope
+- Integrate with a real-time detection system using mobile camera feeds
+- Convert model to TensorFlow Lite for edge deployment
+- Use Grad-CAM to visualize model focus areas
+
+##  Results
+Achieved validation accuracy of ~XX% after N epochs.
+
+##  Contributing
+Feel free to submit issues or feature requests!
